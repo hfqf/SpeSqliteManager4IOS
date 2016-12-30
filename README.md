@@ -1,7 +1,7 @@
 # SpeSqliteManager
 一个用来管理iOS数据自动升级的管理类
 
-SpeSqliteUpdateManager类SpeSqlSetting.plist一起用来控制本地数据的创建和升级功能。升级功能基于应用每次升级后，沙盒的document中的数据不变做的。
+SpeSqliteUpdateManager类和SpeSqlSetting.plist一起用来控制本地数据的创建和升级功能。升级功能基于应用每次升级后，沙盒的document中的数据不变做的。
 说明:
 1.目前写的逻辑只是用来只创建了一个db文件。如果配置创建多个db文件，请注意。
 2.关于plist:
