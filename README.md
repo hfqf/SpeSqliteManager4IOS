@@ -12,3 +12,6 @@ SpeSqliteUpdateManager类和SpeSqlSetting.plist一起用来控制本地数据的
 3.对于已经已使用plist的应用，注意plist中的值不要乱改动。
 4.修改表时:
   1.不用的表和字段作为冗余表和字段,不删。
+
+使用方法: 
+直接调用[SqliteDataManager sharedInstance]即可,可自动创建和升级数据库。
